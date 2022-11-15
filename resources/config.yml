@@ -1,0 +1,13 @@
+---
+ # Set minimum and maximum note limit.
+Min-Money: 1000
+Max-Money: 1000000
+
+Note-Name: "§3Para Çeki"
+Note-Lore: "§a{money} TL §2Değerinde Çek"
+Note-Id: 339
+Note-Meta: 0
+
+Commands: ["cek", "paraceki"]
+Description: "Güvenli Bir Şekilde Çek Oluştur"
+...

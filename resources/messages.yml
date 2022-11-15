@@ -1,0 +1,26 @@
+---
+ # - {minimum} : minimum money value
+ # - {maximum} : maximum money value
+ # - {money} : player money value
+ # - {input} : input value
+
+UI:
+  Title: "Çek Menüsü"
+  Content: "§3Bu Menüde Kendine Para Çeki Oluşturabilirsin!\n\n§3Minimum: §b{minimum} TL\n§3Maximum: §b{maximum} TL\n§3Senin Paran: §b{money}\n"
+  Input-Example: "Örneğin: 5000"
+
+Message:
+  No-Player: "§f» §4Lütfen Bu Komutu Oyunda Kullanınız!"
+  Not-Create-Perm: "§f» §4Çek Oluşturmaya Yetkin Yok!"
+  Not-Use-Perm: "§f» §4Çek Kullanmaya Yetkin Yok!"
+  Null-Value: "§f» §4Kutu Boş Bırakılmamalıdır!"
+  Not-Numeric: "§f» §4Girilen §c{input} §4Değeri Sayısal Değil!"
+  Minimum-Value: "§f» §4En Az §c{minimum} §4TL Değerinde Çek Oluşturabilirsin!"
+  Maximum-Value: "§f» §4En Fazla §c{maximum} §4TL Değerinde Çek Oluşturabilirsin!"
+  Not-Have-Money: "§f» §c{input} §4TL Çek İçin Yeterli Miktarda Paran Yok! Paran: §c{money}"
+  Cant-Add-Item: "§f» §4Para Çeki İçin Envanterinde Yer Yok!"
+  Create-Succes: "§f» §a{input} §2TL Değerinde Çek Oluşturuldu! Güncel Paran: §a{money}"
+  Use-Succes: "§f» §a{price} §2TL Değerindeki Çek Bozduruldu! Güncel Paran: §a{money}"
+
+
+

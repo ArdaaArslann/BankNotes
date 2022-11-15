@@ -1,0 +1,11 @@
+name: BankNotes
+api: 4.0.0
+main: ArdaaArslann\NoteMain
+version: 3.0
+author: ArdaaArslann
+
+permissions:
+   banknotes.create:
+      default: true
+   banknotes.use:
+      default: true
